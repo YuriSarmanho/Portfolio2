@@ -1,4 +1,5 @@
 import logo from "../../img/logo.svg";
+import MobileNav from "../../components/MobileNav";
 import "./header.css";
 
 const header = () => {
@@ -36,6 +37,7 @@ const header = () => {
           </li>
         </ul>
       </nav>
+      <MobileNav/>
     </header>
   );
 };

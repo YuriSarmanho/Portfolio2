@@ -1,0 +1,14 @@
+.mobileNav {
+    margin: 0 3rem;
+}
+.hamburguerMenu {
+    width: 2em;
+}
+
+
+
+@media (min-width: 800px) {
+  .mobileNav {
+    display: none;
+  }
+}

@@ -33,3 +33,9 @@ nav {
 .nav-a:hover {
     color: var(--PRIMARY-COLOR-HOVER);
 }
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+}
