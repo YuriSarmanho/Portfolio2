@@ -1,0 +1,35 @@
+header {
+    /* background-color: #1a1a1a; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: inherit;
+    margin: 0 2rem;
+}
+
+nav {
+    margin: 0 2rem;
+    background-color: inherit;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-li {
+    margin: 0 1em;
+}
+
+.nav-a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: var(--PRIMARY-COLOR);
+}
+
+.nav-a:hover {
+    color: var(--PRIMARY-COLOR-HOVER);
+}
