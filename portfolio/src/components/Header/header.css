@@ -1,42 +1,52 @@
 header {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
-    margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 nav {
-    margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 .nav-ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 .nav-li {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 .nav-a {
-    text-decoration: none;
-    font-size: 1.6em;
-    color: var(--PRIMARY-COLOR);
+  text-decoration: none;
+  font-size: 1.6em;
+  padding: 0 0.2em;
+  color: var(--PRIMARY-COLOR);
 }
 
+.resume {
+  border: solid 1px ;
+  transition: ease 0.3s;
+}
 .nav-a:hover {
-    color: var(--PRIMARY-COLOR-HOVER);
+  color: var(--PRIMARY-COLOR-HOVER);
+}
+.resume:hover {
+  background-color: var(--PRIMARY-COLOR-HOVER);
+  border-color: var(--PRIMARY-COLOR-HOVER);
+  color: black;
 }
 
 @media (max-width: 800px) {
-    nav {
-        display: none;
-    }
+  nav {
+    display: none;
+  }
 }
