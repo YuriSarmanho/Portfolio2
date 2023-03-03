@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -9,11 +9,13 @@ header {
 }
 
 .logo {
+    background-color: inherit;
     margin: 0 2rem;
 }
 
 nav {
     margin: 0 2rem;
+    background-color: inherit;
 }
 
 .nav-ul {

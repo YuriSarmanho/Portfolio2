@@ -9,11 +9,13 @@ header {
 }
 
 .logo {
+    background-color: inherit;
     margin: 0 2rem;
 }
 
 nav {
     margin: 0 2rem;
+    background-color: inherit;
 }
 
 .nav-ul {

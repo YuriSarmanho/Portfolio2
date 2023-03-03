@@ -1,19 +1,18 @@
 header {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    background-color: #1a1a1a;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100%;
 }
 
 .logo {
+    background-color: inherit;
     margin: 0 2rem;
 }
 
 nav {
     margin: 0 2rem;
+    background-color: inherit;
 }
 
 .nav-ul {
