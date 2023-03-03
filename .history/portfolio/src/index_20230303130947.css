@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&family=Share+Tech+Mono&display=swap');
+* {
+  --PRIMARY-BG: #0e0e0e;
+  --SECONDARY-BG: #894a00;
+  --PRIMARY-COLOR: #d47300;
+  --PRIMARY-COLOR-HOVER: #d49800;
+  --SECONDARY-COLOR: #fff4ca;
+  --FOOTER-BGCOLOR: #5c2b00;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--PRIMARY-BG);
+  font-family: 'Poppins';
+  color: var(--PRIMARY-COLOR);
+  
+}
+
+section {
+  height: 100vh;
+}
