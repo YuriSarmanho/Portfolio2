@@ -46,6 +46,11 @@ nav {
 }
 
 @media (max-width: 800px) {
+  .resume {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
   nav {
     display: none;
   }

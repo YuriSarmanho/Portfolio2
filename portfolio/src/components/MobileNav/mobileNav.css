@@ -5,9 +5,7 @@
     width: 2em;
 }
 
-
-
-@media (min-width: 800px) {
+@media (min-width: 650px) {
   .mobileNav {
     display: none;
   }
