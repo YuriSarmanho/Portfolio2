@@ -4,40 +4,32 @@ import "./header.css";
 
 const header = () => {
   return (
-    <header>
+    <header className="primary-header flex">
       <a href="#home" className="logo">
         <img src={logo} alt="the site's logo" />
       </a>
       <nav>
-        <ul className="nav-ul">
-          <li className="nav-li">
-            <a href="#home" className="nav-a">
-              Home
-            </a>
+        <ul id="primary-navigation" className="primary-navigation flex">
+          <li>
+            <a href="#home">Home</a>
           </li>
-          <li className="nav-li">
-            <a href="#about" className="nav-a">
-              About
-            </a>
+          <li>
+            <a href="#about">About</a>
           </li>
-          <li className="nav-li">
-            <a href="#projects" className="nav-a">
-              Projects
-            </a>
+          <li>
+            <a href="#projects">Projects</a>
           </li>
-          <li className="nav-li">
-            <a href="#contact" className="nav-a">
-              Contact
-            </a>
+          <li>
+            <a href="#contact">Contact</a>
           </li>
-          <li className="nav-li">
-            <a href="/contact" className="nav-a resume">
+          <li>
+            <a href="/contact" className="resume">
               Currículo
             </a>
           </li>
         </ul>
       </nav>
-      <MobileNav />
+      {/* <MobileNav /> */}
     </header>
   );
 };
