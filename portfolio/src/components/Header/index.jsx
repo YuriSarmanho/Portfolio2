@@ -1,4 +1,5 @@
 import logo from "../../img/logo.svg";
+import SocialMedia from "../SocialMedia";
 import "./header.css";
 import { useState } from "react";
 
@@ -39,6 +40,7 @@ const header = () => {
               Currículo
             </a>
           </li>
+          <SocialMedia />
         </ul>
       </nav>
     </header>
