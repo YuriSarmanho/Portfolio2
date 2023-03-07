@@ -1,0 +1,11 @@
+.btn-component {
+  padding: 0.05em 0.2em;
+  border: solid 1px;
+  transition: ease 0.3s;
+}
+
+.btn-component:hover {
+  /* background-color: var(--PRIMARY-COLOR-HOVER); */
+  border-color: var(--PRIMARY-COLOR-HOVER);
+  /* color: black !important; */
+}

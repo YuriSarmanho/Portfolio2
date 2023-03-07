@@ -27,19 +27,8 @@
   font-size: 1.4em;
 }
 
-.resume {
-  padding: 0.05em 0.2em;
-  border: solid 1px;
-  transition: ease 0.3s;
-}
-
 .primary-navigation a:hover {
   color: var(--PRIMARY-COLOR-HOVER);
-}
-.primary-navigation li .resume:hover {
-  background-color: var(--PRIMARY-COLOR-HOVER);
-  border-color: var(--PRIMARY-COLOR-HOVER);
-  color: black;
 }
 
 @media (max-width: 800px) {

@@ -1,5 +1,6 @@
 import logo from "../../img/logo.svg";
 import SocialMedia from "../SocialMedia";
+import Button from "../Button";
 import "./header.css";
 import { useState } from "react";
 
@@ -36,9 +37,7 @@ const header = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="/contact" className="resume">
-              Currículo
-            </a>
+            <Button name="Currículo" link="#"/>
           </li>
           <SocialMedia />
         </ul>
