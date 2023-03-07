@@ -1,0 +1,30 @@
+#home {
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-content p{
+    font-family: "Share Tech Mono";
+}
+
+#myName {
+    flex-direction: column;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+}
+
+#myName span{
+   margin-top: -.6em ;
+}
+
+@media (max-width: 360px) {
+    #myName {
+        font-size: 2em;
+    }
+}
