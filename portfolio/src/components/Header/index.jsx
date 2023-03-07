@@ -1,15 +1,27 @@
 import logo from "../../img/logo.svg";
-import MobileNav from "../../components/MobileNav";
 import "./header.css";
+import { useState } from "react";
 
 const header = () => {
+  const [mobileNavActive, setMobileNavActive] = useState(false);
+
   return (
     <header className="primary-header flex">
       <a href="#home" className="logo">
         <img src={logo} alt="the site's logo" />
       </a>
+
+      <button
+        className="mobile-nav-toggle"
+        onClick={() => setMobileNavActive(!mobileNavActive)}
+        data-visible={!mobileNavActive}
+      ></button>
       <nav>
-        <ul id="primary-navigation" className="primary-navigation flex">
+        <ul
+          id="primary-navigation"
+          data-visible={!mobileNavActive}
+          className="primary-navigation flex"
+        >
           <li>
             <a href="#home">Home</a>
           </li>
@@ -29,7 +41,6 @@ const header = () => {
           </li>
         </ul>
       </nav>
-      {/* <MobileNav /> */}
     </header>
   );
 };

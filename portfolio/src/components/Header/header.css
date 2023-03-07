@@ -7,13 +7,17 @@
   width: 100%;
 }
 
+.mobile-nav-toggle {
+  display: none;
+}
+
 .logo {
   margin: 0 2rem;
 }
 
 .primary-navigation {
   margin: 0;
-  padding: 0;
+  padding: 0 2em;
   list-style: none;
 }
 
@@ -24,7 +28,7 @@
 }
 
 .resume {
-  padding: .05em .2em;
+  padding: 0.05em 0.2em;
   border: solid 1px;
   transition: ease 0.3s;
 }
@@ -47,16 +51,43 @@
   .primary-navigation {
     display: fixed;
     inset: 0 0 0 30%;
+    z-index: 1000;
     background-color: var(--PRIMARY-COLOR);
     color: #000;
     position: absolute;
     height: 100vh;
     flex-direction: column;
-    padding: 2em;
+    padding: 5em 2em;
     --gap: 1em;
+    font-family: "Share Tech Mono";
+
+    transform: translateX(100%);
+    transition: transform 0.35s ease-out;
+  }
+
+  .primary-navigation[data-visible="false"] {
+    transform: translateX(0%);
   }
 
   .primary-navigation a {
     color: #000;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    background: url("../../img/hamburguerMenuBlack.svg");
+    background-repeat: no-repeat;
+    width: 2rem;
+    border: none;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .mobile-nav-toggle[data-visible="true"] {
+    background: url("../../img/hamburguerMenu.svg");
+    background-repeat: no-repeat;
   }
 }
