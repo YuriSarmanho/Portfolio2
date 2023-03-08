@@ -1,0 +1,38 @@
+#about {
+    flex-direction: column;
+    align-items: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    color: var(--SECONDARY-COLOR);
+    padding: 4em 0 2em 0;
+    position: absolute;
+}
+
+.about-container {
+    padding: 10em 8rem;
+    align-items: center;
+    color: #fff;
+}
+
+.about-right-side {
+    width: 50%;
+    flex-direction: column;
+    align-items: left;
+}
+.about-left-side {
+    width: 50%;
+    justify-content: center;
+}
+
+.myDescription p {
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.workingTech p {
+    font-family: "Share Tech Mono";
+    color: var(--SECONDARY-COLOR);
+    font-size: 1.2em;
+}
