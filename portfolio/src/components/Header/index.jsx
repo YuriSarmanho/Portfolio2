@@ -36,7 +36,7 @@ const header = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
+          <li className="resume-li">
             <Button name="Currículo" link="#"/>
           </li>
           <SocialMedia />

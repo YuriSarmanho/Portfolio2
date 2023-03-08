@@ -1,4 +1,4 @@
-import React from "react";
+import Button from "../../components/Button";
 import "./home.css";
 
 const Home = () => {
@@ -11,6 +11,9 @@ const Home = () => {
           Monteiro
         </h1>
         <p>sou desenvolvedor Front-end</p>
+      </div>
+      <div className="resume-btn">
+        <Button name="Currículo" link="#" />
       </div>
     </section>
   );

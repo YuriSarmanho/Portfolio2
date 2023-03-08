@@ -1,13 +1,17 @@
-.primary-header {
-  background-color: rgba(0, 0, 0, 0.1);
+header {
+  background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
+}
+
+.primary-header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
   width: 100%;
 }
 
-.mobile-nav-toggle {
+.mobile-nav-toggle,
+.resume-li {
   display: none;
 }
 
@@ -31,11 +35,12 @@
   color: var(--PRIMARY-COLOR-HOVER);
 }
 
-@media (max-width: 800px) {
-  .resume {
-    display: none;
+@media (min-width: 650px) {
+  .resume-li {
+    display: block;
   }
 }
+
 @media (max-width: 480px) {
   .primary-navigation {
     display: fixed;
