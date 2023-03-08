@@ -39,7 +39,7 @@ const header = () => {
           <li className="resume-li">
             <Button name="Currículo" link="#"/>
           </li>
-          <SocialMedia />
+          <div id="mobile-nav-socialmedia"><SocialMedia /></div>
         </ul>
       </nav>
     </header>
