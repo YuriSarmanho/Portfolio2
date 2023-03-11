@@ -1,18 +1,29 @@
 import circleBackground from "../../img/circleBackground.svg";
+import mobileCircleBackground from "../../img/circleBackgroundMobile.svg";
+import seta from "../../img/seta.svg";
 import "./about.css";
 
 const About = () => {
-  //fazer um display grid 1fr 1fr
+  const mySkils = {
+    techs: ["Js", "HTML", "CSS", "SASS", "PHP","Figma"],
+  };
+
   return (
     <section id="about" className="flex">
       <h2>Sobre mim</h2>
-
       <div className="about-container flex">
         <div className="about-left-side flex">
-          <div className="about_img">
+          <div className="about_img_desktop">
             <img
               src={circleBackground}
               alt="background circles"
+              className="background-circles"
+            />
+          </div>
+          <div className="about_img_mobile">
+            <img
+              src={mobileCircleBackground}
+              alt="background mobile circles"
               className="background-circles"
             />
           </div>
@@ -35,7 +46,14 @@ const About = () => {
 
           <div className="workingTech">
             <p>Algumas tecnologias com que eu venho trabalhando:</p>
-            <p>array com as tech</p>
+            <br />
+            <div className="skills-container">
+              {mySkils.techs.map((tech) => (
+                <div className="skill flex">
+                  <img src={seta} /> <p>{tech}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
