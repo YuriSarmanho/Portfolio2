@@ -1,7 +1,8 @@
 #projects {
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   flex-direction: column;
   align-items: center;
+  height: fit-content;
 }
 #projects h2 {
   font-size: 2em;
@@ -12,15 +13,14 @@
 .projects-container {
   display: grid;
   justify-content: center;
-  padding: 0 5em;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-gap: 2em;
 }
 
 @media (max-width:1250px) {
     .projects-container {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
       }
 }
 @media (max-width:950px) {
