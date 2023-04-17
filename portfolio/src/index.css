@@ -32,3 +32,19 @@ section {
   display: grid;
   gap: var(--gap, 1rem);
 }
+
+/*scroll style*/
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.4); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--PRIMARY-COLOR);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}

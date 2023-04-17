@@ -5,7 +5,7 @@ import "./about.css";
 
 const About = () => {
   const mySkils = {
-    techs: ["Js", "HTML", "CSS", "SASS", "PHP","Figma"],
+    techs: ["Js", "HTML", "CSS", "React", "PHP", "Figma","Vue","Node.js"],
   };
 
   return (
@@ -32,15 +32,16 @@ const About = () => {
         <div className="about-right-side flex">
           <div className="myDescription">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially Lorem Ipsum is
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and
+              Olá, me chamo Yuri e sou estudante de Engenharia da Computação e
+              desenvolvedor Front-end. Trabalhei na execução de alguns projetos
+              pessoais para o desenvolvimento das minhas habilidades e novos
+              aprendizados.
+            </p>
+            <br />
+            <p>
+              Estou sempre disposto a aprender novas tecnologias e
+              constantimente estudando e praticando para que os meus
+              conhecimentos se mantenham atualizados.
             </p>
           </div>
 
