@@ -2,7 +2,7 @@ import React ,{ useRef } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { VscGithubAlt } from "react-icons/vsc";
 import { FaWhatsapp } from "react-icons/fa";
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import "./contact.css";
 
 const Contact = () => {
@@ -45,11 +45,11 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
           <h4>Nome</h4>
           <input type="text" name="name" placeholder="Nome completo" required />
           <h4>E-mail</h4>
-          <input type="text" name="name" placeholder="Seu e-mail" required />
+          <input type="text" name="email" placeholder="Seu e-mail" required />
           <h4>Mensagem</h4>
           <textarea
             name="message"
