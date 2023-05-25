@@ -9,12 +9,12 @@ const Project = (props) => {
       <div className="project-header flex">
         <img src={fileIcon} alt="File icon" className="project_file-icon" />
         <div className="project-links">
-          <a href={props.githubLink}>
+          <a href={props.githubLink} target="_blank">
             <AiFillGithub className="github-icon" />
           </a>
-          <a href={props.pageLink}>
+          {/* <a href={props.pageLink}>
             <RxExternalLink />
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="project-info">

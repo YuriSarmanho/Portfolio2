@@ -5,11 +5,11 @@ import "./projects.css";
 const Projects = () => {
   const projectsData = [
     {
-      name: "hamburguerMenu",
+      name: "burger-factory-app",
       description:
         "Primeiro projeto que eu montei utilizando React, uma página de montagem de pedidos, com opções de quantidade de ingredientes e acompanhamentos mostrando no final o total do pedido.",
       pageLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/kaeuchoa/burger-factory-app",
       id: 0,
     },
     {
@@ -17,7 +17,7 @@ const Projects = () => {
       description:
         "Projeto desenvolvido em PHP, realizado com o intuito de fixar os aprezidos realizado durante a execução do curso PHP.",
       pageLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/YuriSarmanho/PHPcourse/tree/main/19_movieStar",
       id: 1,
     },
     {
@@ -25,7 +25,7 @@ const Projects = () => {
       description:
         "Primeiro projeto que eu fiz no aprendizado de Front-end, realizei esse projeto com o intuito de aprender o funcionamento de HTML, CSS, Js. Todo projeto foi montado utilizando apenas essas tecnologias.",
       pageLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/YuriSarmanho/Calculadora",
       id: 2,
     },
     // {
@@ -49,7 +49,7 @@ const Projects = () => {
       description:
         "Projeto básico utilizando React com o objetivo de aprender o funcionamento do cadastro em sites utilizando os e-mail do google, utilizando a biblioteca do firebase.",
       pageLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/YuriSarmanho/loginPageWithFirebase",
       id: 5,
     },
     // {
